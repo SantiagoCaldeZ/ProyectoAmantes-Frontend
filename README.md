@@ -1,6 +1,6 @@
 # ProyectoAmantes
-Ejercicio #3
-Santiago Calderón y Fabricio Monge
+## Ejercicio #3
+### Santiago Calderón y Fabricio Monge
 
 Ejercicio: API tradicional para encontrar mi amante ideal. Construyan una aplicación simple donde los usuarios puedan registrar perfiles de posibles amantes y luego consultar candidatos según un interés específico, con un backend desacoplado del frontend y siguiendo una arquitectura en capas clara. Ejercicio en parejas.
 
