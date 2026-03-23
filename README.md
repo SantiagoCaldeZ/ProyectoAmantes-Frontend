@@ -1,4 +1,4 @@
-# ProyectoAmantes
+# ProyectoAmantes - Frontend
 ## Ejercicio #3
 ### Santiago Calderón y Fabricio Monge
 
