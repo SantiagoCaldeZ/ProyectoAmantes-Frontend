@@ -1,23 +1,16 @@
-# ProyectoAmantes - Frontend
-## Ejercicio #3
-### Santiago Calderón y Fabricio Monge
+# React + Vite
 
-Ejercicio: API tradicional para encontrar mi amante ideal. Construyan una aplicación simple donde los usuarios puedan registrar perfiles de posibles amantes y luego consultar candidatos según un interés específico, con un backend desacoplado del frontend y siguiendo una arquitectura en capas clara. Ejercicio en parejas.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-Arquitectura: NodeJS + Express + REST
-Base de datos: MongoDB local con pocos registros
-Capas obligatorias: controllers, services, repositories, model, dto
-Repositorios separados: uno para backend y otro para frontend
-Frontend: React con client side rendering
-Operación de escritura: POST /amantes para crear un perfil con nombre, edad e intereses
-Operación de lectura: GET /amantes?interes=x para listar coincidencias por interés
-Validaciones básicas en DTOs
-Scripts: npm run dev y npm run start para backend y frontend
-Seed data mínima cargada automáticamente
-Todo debe correr localmente sin dependencias externas
-Entregables:
-repositorio en github para revisión, se revisarán commits de los integrantes
-todo el código debe ser generado por una AI especializada en coding, por ende se revisarán los markdown files y los agentes que se hayan definido para la creación del ejemplo de implementación
-se harán preguntas sobre la implementación de la tecnología, paradigma y topología
-la revisión será con cita por videollamada
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
